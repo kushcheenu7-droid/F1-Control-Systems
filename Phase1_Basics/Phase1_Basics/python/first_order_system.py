@@ -19,3 +19,7 @@ plt.ylabel("Response")
 plt.title("First Order System Step Response")
 plt.grid(True)
 plt.show()
+
+## Status
+- Script executed successfully
+- Plot generated locally using Python

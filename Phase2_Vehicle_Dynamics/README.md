@@ -33,3 +33,17 @@ File: `braking_model.py`
 ## Relevance
 This model represents the baseline braking physics used before adding
 aerodynamic and control effects such as downforce and ABS logic.
+
+## Aerodynamic Braking Effect
+
+File: `braking_with_aero.py`
+
+This model extends baseline braking dynamics by including aerodynamic
+downforce proportional to velocity squared.
+
+### Observations
+- Increased downforce improves braking capability at high speeds
+- Braking performance degrades as speed reduces
+- Demonstrates why aerodynamics are critical in motorsport braking
+
+This analysis explains late braking capability in Formula 1 cars.

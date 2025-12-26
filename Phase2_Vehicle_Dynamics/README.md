@@ -1,21 +1,35 @@
-# Phase 2 – Vehicle Dynamics (Motorsport Focus)
+# Vehicle Braking Dynamics
 
-This phase focuses on modeling longitudinal vehicle dynamics with
-applications to motorsport braking performance.
+This module models longitudinal vehicle braking dynamics with a focus on
+motorsport and high-performance automotive applications.
 
-## Objectives
-- Model vehicle braking behavior
-- Understand tire–road interaction
-- Prepare foundation for ABS and control logic
+The goal is to understand how physical parameters and external forces
+affect braking performance and stopping distance.
 
-## Topics Covered
-- Longitudinal braking dynamics
-- Tire friction limits
-- Effect of mass and speed on stopping distance
+---
 
-## Tools Used
-- Python (NumPy, Matplotlib)
+## Baseline Model (No Aerodynamics)
 
-## Outcome
-This phase bridges control theory with real vehicle physics used in
-motorsport and high-performance automotive engineering.
+File: `braking_model.py`
+
+### Assumptions
+- Flat road surface
+- Constant tire–road friction coefficient
+- No aerodynamic downforce
+- Straight-line braking
+
+### Parameters
+- Vehicle mass
+- Initial velocity
+- Tire–road friction coefficient
+
+### Concepts Studied
+- Friction-limited braking
+- Velocity decay during braking
+- Stopping distance estimation
+
+---
+
+## Relevance
+This model represents the baseline braking physics used before adding
+aerodynamic and control effects such as downforce and ABS logic.

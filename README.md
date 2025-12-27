@@ -1,28 +1,44 @@
-# F1-Control-Systems
-Control systems, vehicle dynamics, and simulations for motorsport applications
+# Control Systems & Vehicle Dynamics – Motorsport Focus
 
-# Phase 1 – Engineering & Control Systems Basics
+This repository contains control system simulations and vehicle dynamics
+models developed with a focus on motorsport and high-performance
+automotive applications.
 
-This phase focuses on building strong fundamentals required for
-motorsport, automotive, and avionics control systems.
+The work bridges **control theory**, **vehicle physics**, and
+**feedback-based safety systems**.
 
-## Objectives
-- Understand basic control system concepts
-- Implement mathematical models in code
-- Visualize system behavior using simulations
+---
 
-## Topics Covered
-- Time-domain system response
-- First and second order systems
-- Physical interpretation of control parameters
-- Numerical simulation using Python and MATLAB
+## Phase 1 – Control Systems Basics
+- First-order system modeling and step response
+- Second-order system dynamics and damping behavior
+- Time-domain analysis using Python and MATLAB
+
+Focus:
+Understanding system behavior and translating mathematical models into
+working simulations.
+
+---
+
+## Phase 2 – Vehicle Dynamics (Braking)
+- Baseline braking dynamics
+- Aerodynamic downforce effects on braking
+- ABS-style feedback control using slip ratio
+- Comparison of open-loop vs closed-loop braking
+
+Focus:
+Applying control systems concepts to real automotive and motorsport
+problems.
+
+---
 
 ## Tools Used
 - Python (NumPy, Matplotlib)
-- MATLAB
+- Control Systems Theory
+- Vehicle Dynamics Fundamentals
 
-## Outcome
-By the end of this phase, I will be able to:
-- Translate equations into working simulations
-- Interpret plots like an engineer
-- Build the foundation for vehicle dynamics and control
+---
+
+## Motivation
+This work is aimed at developing industry-relevant skills for internships
+and research roles in automotive, motorsport, and avionics domains.

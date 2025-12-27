@@ -47,3 +47,24 @@ downforce proportional to velocity squared.
 - Demonstrates why aerodynamics are critical in motorsport braking
 
 This analysis explains late braking capability in Formula 1 cars.
+
+## ABS-Style Control Logic
+
+File: `braking_with_abs.py`
+
+This model introduces a simplified anti-lock braking system (ABS)
+controller using feedback control principles.
+
+### Control Strategy
+- Slip ratio is used as the feedback variable
+- A proportional controller regulates braking force
+- Braking force is limited to avoid wheel lock
+
+### Control Concepts Applied
+- Feedback control
+- Error computation
+- Gain tuning
+- Actuator saturation
+
+This model demonstrates how control theory is applied directly in
+automotive safety systems.

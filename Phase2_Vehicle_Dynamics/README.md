@@ -68,3 +68,18 @@ controller using feedback control principles.
 
 This model demonstrates how control theory is applied directly in
 automotive safety systems.
+
+## ABS vs No ABS Comparison
+
+File: `compare_abs_vs_no_abs.py`
+
+This analysis compares braking performance with and without an
+ABS-style feedback controller.
+
+### Observations
+- ABS prevents wheel lock by regulating slip ratio
+- Vehicle remains controllable during braking
+- Demonstrates closed-loop control improving safety and stability
+
+This comparison highlights the practical importance of feedback control
+in automotive safety systems.
